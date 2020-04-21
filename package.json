@@ -28,7 +28,9 @@
   },
   "homepage": "https://github.com/sergeyzwezdin/hexo-broken-links-checker#readme",
   "devDependencies": {
-    "hexo": "^4.2.0",
+    "hexo": "^4.2.0"
+  },
+  "dependencies": {
     "node-fetch": "^2.6.0"
   }
 }
