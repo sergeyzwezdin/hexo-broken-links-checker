@@ -26,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/sergeyzwezdin/hexo-broken-links-checker/issues"
   },
-  "homepage": "https://github.com/sergeyzwezdin/hexo-broken-links-checker#readme"
+  "homepage": "https://github.com/sergeyzwezdin/hexo-broken-links-checker#readme",
+  "devDependencies": {
+    "hexo": "^4.2.0",
+    "node-fetch": "^2.6.0"
+  }
 }
