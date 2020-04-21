@@ -1,6 +1,7 @@
 hexo.config.broken_links_checker = Object.assign(
     {
         enable: true,
+        head: true,
         frontmatter: [],
         exclude: [],
         timeout: 0
