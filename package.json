@@ -1,36 +1,36 @@
 {
-  "name": "hexo-broken-links-checker",
-  "version": "1.2.0",
-  "description": "Broken links checker for Hexo static site generator",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sergeyzwezdin/hexo-broken-links-checker.git"
-  },
-  "files": [
-    "index.js",
-    "lib/"
-  ],
-  "keywords": [
-    "hexo",
-    "checker",
-    "links",
-    "tools",
-    "cli"
-  ],
-  "author": "Sergey Zwezdin <sergey@zwezdin.com> (https://zwezdin.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sergeyzwezdin/hexo-broken-links-checker/issues"
-  },
-  "homepage": "https://github.com/sergeyzwezdin/hexo-broken-links-checker#readme",
-  "devDependencies": {
-    "hexo": "^4.2.0"
-  },
-  "dependencies": {
-    "node-fetch": "^2.6.0"
-  }
+    "name": "hexo-broken-links-checker",
+    "version": "1.2.0",
+    "description": "Broken links checker for Hexo static site generator",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sergeyzwezdin/hexo-broken-links-checker.git"
+    },
+    "files": [
+        "index.js",
+        "lib/"
+    ],
+    "keywords": [
+        "hexo",
+        "checker",
+        "links",
+        "tools",
+        "cli"
+    ],
+    "author": "Sergey Zwezdin <sergey@zwezdin.com> (https://zwezdin.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sergeyzwezdin/hexo-broken-links-checker/issues"
+    },
+    "homepage": "https://github.com/sergeyzwezdin/hexo-broken-links-checker#readme",
+    "dependencies": {
+        "node-fetch": "^2.6.0"
+    },
+    "peerDependencies": {
+        "hexo": "^4.2.0"
+    }
 }
