@@ -47,6 +47,7 @@ broken_links_checker:
         - https://website1.com/page1.html
         - https://website2.com/page2.html
     timeout: 1000
+    parallel: 10
     tags:
         a: true
         img: true
@@ -54,6 +55,10 @@ broken_links_checker:
         iframe: true
         script: true
         link: true
+    cache:
+        enable: true
+        lifetime: 1440
+        path: "link-checker.json"
 ```
 
 | Key | Required | Default value | Description |
@@ -63,5 +68,8 @@ broken_links_checker:
 | `frontmatter` | `false` | empty | Keys in frontmatter that should be scanned in addition to post content. |
 | `exclude` | `false` | empty | Array of URLs that should be ignored for some reason. |
 | `timeout` | `false` | `0` | Timeout in milliseconds for URL checking. Use `0` if you don't want to use any timeout. |
+| `parallel` | `false` | `10` | Number of checks that could be run in parallel. |
 | `tags` | `false` | `true` to all | Tags that should be processed on the page (e.g. `<a>`, `<img>`, etc). |
-
+| `cache.enable` | `false` | `true` | Enable/disable caching results of the checking. If enabled the results of the checking will be stored in the file. The URL checking will be skipped if it was checked already and is not expired. |
+| `cache.lifetime` | `false` | `1440` | Time in minutes to expire the URL checking result. |
+| `cache.path` | `false` | `link-checker.json` | Name of the file where checking results will be stored. |

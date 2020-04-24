@@ -12,7 +12,13 @@ hexo.config.broken_links_checker = Object.assign(
             script: true,
             link: true
         },
-        timeout: 0
+        timeout: 0,
+        parallel: 10,
+        cache: {
+            enable: true,
+            lifetime: 1440,
+            path: 'link-checker.json'
+        }
     },
     hexo.config.broken_links_checker
 );
