@@ -29,6 +29,7 @@
     "homepage": "https://github.com/sergeyzwezdin/hexo-broken-links-checker#readme",
     "dependencies": {
         "chalk": "^4.0.0",
+        "date-fns": "^2.12.0",
         "node-fetch": "^2.6.0"
     },
     "peerDependencies": {
