@@ -4,6 +4,14 @@ hexo.config.broken_links_checker = Object.assign(
         head: true,
         frontmatter: [],
         exclude: [],
+        tags: {
+            a: true,
+            img: true,
+            source: true,
+            iframe: true,
+            script: true,
+            link: true
+        },
         timeout: 0
     },
     hexo.config.broken_links_checker

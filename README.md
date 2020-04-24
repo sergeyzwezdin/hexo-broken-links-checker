@@ -47,6 +47,13 @@ broken_links_checker:
         - https://website1.com/page1.html
         - https://website2.com/page2.html
     timeout: 1000
+    tags:
+        a: true
+        img: true
+        source: true
+        iframe: true
+        script: true
+        link: true
 ```
 
 | Key | Required | Default value | Description |
@@ -56,4 +63,5 @@ broken_links_checker:
 | `frontmatter` | `false` | empty | Keys in frontmatter that should be scanned in addition to post content. |
 | `exclude` | `false` | empty | Array of URLs that should be ignored for some reason. |
 | `timeout` | `false` | `0` | Timeout in milliseconds for URL checking. Use `0` if you don't want to use any timeout. |
+| `tags` | `false` | `true` to all | Tags that should be processed on the page (e.g. `<a>`, `<img>`, etc). |
 

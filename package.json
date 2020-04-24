@@ -1,6 +1,6 @@
 {
     "name": "hexo-broken-links-checker",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Broken links checker for Hexo static site generator",
     "main": "index.js",
     "scripts": {
@@ -28,6 +28,7 @@
     },
     "homepage": "https://github.com/sergeyzwezdin/hexo-broken-links-checker#readme",
     "dependencies": {
+        "chalk": "^4.0.0",
         "node-fetch": "^2.6.0"
     },
     "peerDependencies": {
