@@ -18,8 +18,10 @@ jobs:
         diff-search: true
     - name: Read .nvmrc
       id: node_version
+      if: steps.check.outputs.changed == 'true'
       run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
     - name: Setup Node
+      if: steps.check.outputs.changed == 'true'
       uses: actions/setup-node@v1
       with:
         node-version: ${{ steps.node_version.outputs.NODE_VERSION }}
