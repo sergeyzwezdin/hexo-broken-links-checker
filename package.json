@@ -33,7 +33,7 @@
     },
     "dependencies": {
         "date-fns": "^2.12.0",
-        "node-fetch": "^2.6.0"
+        "node-fetch": "^2.6.1"
     },
     "devDependencies": {
         "chalk": "^4.0.0"
