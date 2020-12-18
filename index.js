@@ -13,6 +13,7 @@ hexo.config.broken_links_checker = Object.assign(
             link: true
         },
         timeout: 0,
+        useragent: null,
         parallel: 10,
         cache: {
             enable: true,
