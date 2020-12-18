@@ -1,6 +1,6 @@
 {
     "name": "hexo-broken-links-checker",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "Broken links checker for Hexo static site generator",
     "main": "index.js",
     "scripts": {
